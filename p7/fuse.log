@@ -1,0 +1,61 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/Desktop/p7/mips_txt_isim_beh.exe -prj /home/co-eda/Desktop/p7/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/Desktop/p7/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/MWreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/MDU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/FDreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/EMreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/DEreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/DE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/CP0.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/controller.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/BE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/../../Verilog/Pre/p7/P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/CPU.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/Bridge.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/p7/mips_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/p7/CPU.v" Line 310: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/p7/CPU.v" Line 378: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/p7/CPU.v" Line 451: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Desktop/p7/CPU.v" Line 499: Port RegDst is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 83284 KB
+Fuse CPU Usage: 2790 ms
+Compiling module PC
+Compiling module NPC
+Compiling module FDreg
+Compiling module Controller
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module DEreg
+Compiling module ALU
+Compiling module MDU
+Compiling module CP0
+Compiling module EMreg
+Compiling module BE
+Compiling module DE
+Compiling module MWreg
+Compiling module CPU
+Compiling module Bridge
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 21 Verilog Units
+Built simulation executable /home/co-eda/Desktop/p7/mips_txt_isim_beh.exe
+Fuse Memory Usage: 92708 KB
+Fuse CPU Usage: 3030 ms
+GCC CPU Usage: 10110 ms

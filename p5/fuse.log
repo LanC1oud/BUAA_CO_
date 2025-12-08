@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/Verilog/Pre/mips/mips_test_isim_beh.exe -prj /home/co-eda/Verilog/Pre/mips/mips_test_beh.prj work.mips_test work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/MWreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/IM.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/FDreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/EMreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/DM.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/DEreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/controller.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/mips/mips_test.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/mips/mips.v" Line 241: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/mips/mips.v" Line 301: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/mips/mips.v" Line 311: Port zero is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/mips/mips.v" Line 336: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/mips/mips.v" Line 375: Port RegDst is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 83028 KB
+Fuse CPU Usage: 2870 ms
+Compiling module PC
+Compiling module NPC
+Compiling module IM
+Compiling module FDreg
+Compiling module Controller
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module DEreg
+Compiling module ALU
+Compiling module EMreg
+Compiling module DM
+Compiling module MWreg
+Compiling module mips
+Compiling module mips_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 16 Verilog Units
+Built simulation executable /home/co-eda/Verilog/Pre/mips/mips_test_isim_beh.exe
+Fuse Memory Usage: 91616 KB
+Fuse CPU Usage: 2990 ms
+GCC CPU Usage: 4270 ms
