@@ -1,0 +1,55 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/Verilog/Pre/p6/mips_txt_isim_beh.exe -prj /home/co-eda/Verilog/Pre/p6/mips_txt_beh.prj mips_txt work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/PC.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/MWreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/MDU.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/FDreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/EMreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/DEreg.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/DE.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/controller.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/BE.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/ALU.v" into library work
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/mips.v" into library work
+WARNING:HDLCompiler:35 - "/home/co-eda/Verilog/Pre/p6/mips.v" Line 53: <F_Instr> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "/home/co-eda/Verilog/Pre/p6/mips.v" Line 141: <M_DMdata> is already implicitly declared earlier.
+Analyzing Verilog file "/home/co-eda/Verilog/Pre/p6/mips_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/p6/mips.v" Line 268: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/p6/mips.v" Line 328: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/p6/mips.v" Line 376: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/co-eda/Verilog/Pre/p6/mips.v" Line 419: Port RegDst is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 83164 KB
+Fuse CPU Usage: 2870 ms
+Compiling module PC
+Compiling module NPC
+Compiling module FDreg
+Compiling module Controller
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module DEreg
+Compiling module ALU
+Compiling module MDU
+Compiling module EMreg
+Compiling module BE
+Compiling module DE
+Compiling module MWreg
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 17 Verilog Units
+Built simulation executable /home/co-eda/Verilog/Pre/p6/mips_txt_isim_beh.exe
+Fuse Memory Usage: 92420 KB
+Fuse CPU Usage: 3070 ms
+GCC CPU Usage: 7060 ms
