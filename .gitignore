@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =================================================
 # BUAA CO Project Git Ignore Template
 # =================================================
@@ -53,3 +54,17 @@ xilinxsim.ini
 # --- 5. 操作系统产生的缓存 ---
 .DS_Store
 Thumbs.db
+=======
+_xmsgs/
+isim/
+iseconfig/
+
+*.exe
+*.wdb
+*.log
+*.jfm
+*.ncd
+*.ngc
+*.ngd
+*.bit
+>>>>>>> b11e9f9001c1dada40cff15bd0b8c4337fd9c462

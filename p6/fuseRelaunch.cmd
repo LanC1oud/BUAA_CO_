@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/co-eda/Verilog/Pre/p6/mips_txt_isim_beh.exe" -prj "/home/co-eda/Verilog/Pre/p6/mips_txt_beh.prj" "mips_txt" "work.glbl" 
