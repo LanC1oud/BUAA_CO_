@@ -1,0 +1,55 @@
+# =================================================
+# BUAA CO Project Git Ignore Template
+# =================================================
+
+# --- 1. ISE 仿真产生的中间文件夹 (最占空间) ---
+isim/
+_xmsgs/
+iseconfig/
+xlnx_auto_0_xdb/
+
+# --- 2. 仿真产生的二进制可执行文件 (导致 C 语言误判的元凶) ---
+*.exe
+*.wdb
+*.bit
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.ptwx
+*.unroutes
+*.xpi
+*.out
+
+# --- 3. 仿真过程产生的零碎脚本和日志 ---
+*.log
+*.jfm
+*.twr
+*.twx
+*.xml
+*.html
+*.stx
+*.syr
+*.lso
+*.blx
+*.bld
+*.map
+*.mrp
+*.ngm
+*.xrpt
+fuse.xmsgs
+fuseRelaunch.cmd
+isim.cmd
+xilinxsim.ini
+
+# --- 4. 其他杂物 ---
+*.bak
+*_beh.prj
+*_stx_beh.prj
+
+# --- 5. 操作系统产生的缓存 ---
+.DS_Store
+Thumbs.db
