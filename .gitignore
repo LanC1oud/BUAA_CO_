@@ -1,0 +1,12 @@
+_xmsgs/
+isim/
+iseconfig/
+
+*.exe
+*.wdb
+*.log
+*.jfm
+*.ncd
+*.ngc
+*.ngd
+*.bit
